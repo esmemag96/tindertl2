@@ -12,6 +12,7 @@ import Avatar from '@material-ui/core/Avatar';
 const useStyles = makeStyles(theme => ({
     root: {
         flexGrow: 1,
+        fontFamily: "'Poppins', sans-serif"
     },
     iconsStyle: {
         marginTop: "15%",

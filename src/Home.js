@@ -9,7 +9,8 @@ const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
     backgroundColor: "#aa3a2a",
-    fontFamily: "'Poppins', sans-serif"
+    fontFamily: "'Poppins', sans-serif",
+    minHeight: '100vh',
   },
 }));
 

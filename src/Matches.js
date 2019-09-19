@@ -11,6 +11,8 @@ import Message from './Message'
 const useStyles = makeStyles(theme => ({
     root: {
         flexGrow: 1,
+        fontFamily: "'Poppins', sans-serif",
+        minHeight: '100vh',
     },
     containerStyle: {
         color: "black",

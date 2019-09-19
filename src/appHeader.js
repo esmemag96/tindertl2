@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import Icon from '@material-ui/core/Icon';
 import { fontWeight } from '@material-ui/system';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import MyProfile from './MyProfile'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -21,34 +22,38 @@ const useStyles = makeStyles(theme => ({
   iconsStyle: {
     fontSize: "30px",
     fontWeight: '600',
-    cursor: "pointer"
+    cursor: "pointer",
+    color: "black !important"
   }
 }));
 
 export default function AppHeader() {
   const classes = useStyles();
-  return(
-      <div className={classes.root}>
-        <Grid container alignItems="center">
-          <Grid item xs={4}>
+  return (
+    <div className={classes.root}>
+      <Grid container alignItems="center">
+        <Grid item xs={4}>
+          <Link to="/myprofile">
             <Icon className={classes.iconsStyle}>
-              menu
+              person
             </Icon>
-          </Grid>
-          <Grid item xs={4}>
-            <Link to="/">
-              <img className={classes.logoStyle} id="logoFull" src={logo} alt="Logo didn't load :("></img>
-            </Link>
-          </Grid>
-          <Grid item xs={4}>
-            <Link to="/matches">
-              <Icon className={classes.iconsStyle}>
-                message
-              </Icon>
-            </Link>
-          </Grid>
+          </Link>
         </Grid>
-      </div>
+        <Grid item xs={4}>
+          <Link to="/">
+            <img className={classes.logoStyle} id="logoFull" src={logo} alt="Logo didn't load :("></img>
+          </Link>
+        </Grid>
+        <Grid item xs={4}>
+          <Link to="/matches">
+            <Icon className={classes.iconsStyle}>
+              message
+              </Icon>
+          </Link>
+        </Grid>
+      </Grid>
+      <Route path="/myprofile" component={MyProfile} />
+    </div>
   );
 }
 
