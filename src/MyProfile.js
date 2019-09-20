@@ -21,7 +21,6 @@ const useStyles = makeStyles(theme => ({
     },
     photo: {
         margin: 10,
-
         width: 300,
         height: 300,
     },
@@ -60,7 +59,7 @@ export default function ShowPhoto() {
     return (
         <div className={classes.root} >
             <Grid container className={classes.containerStyle} justify="center">
-                <Grid item xs={6}>
+                <Grid item md={6} xs={12}>
                     <Avatar src={'https://fuckingtonpost.files.wordpress.com/2013/08/323-brasil-la-propuesta-del-congreso-serc3ada-un-desastre-absoluto-para-los-indc3adgenas.jpg'} className={classes.photo} />
                 </Grid>
                 <Grid item xs={12}>

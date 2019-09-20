@@ -11,12 +11,13 @@ import OneMatch from './OneMatch'
 import IconButton from '@material-ui/core/IconButton';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import MenuItem from '@material-ui/core/MenuItem';
+import Hidden from '@material-ui/core/Hidden';
 
 const useStyles = makeStyles(theme => ({
     root: {
         flexGrow: 1,
         color: "black",
-        width: "50%",
+        width: "70%",
         height: "100%",
         display: "inline-flex",
         backgroundColor: "white",
@@ -60,7 +61,7 @@ const useStyles = makeStyles(theme => ({
         marginBottom: "1em"
     },
     textInputStyle: {  
-        width:"30em"
+        width:"100%"
     }
 }));
 
@@ -69,19 +70,19 @@ export default function Message(props) {
     return (
         <div className={classes.root}>
             <Grid container >
-                <Grid item xs={3} className={classes.containerStyle}>
+                <Grid item xs={6} md={4} className={classes.containerStyle}>
                     <Avatar className={classes.photo} src={"https://www.sintesis.mx/wp-content/uploads/2017/09/Indigena-1068x715.jpg"} alt="Photo didn't load :(" />
                 </Grid>
-                <Grid item xs={9} className={classes.containerStyle}>
+                <Grid item xs={6} md={8}className={classes.containerStyle}>
                     <Link to="/showprofile" >
                         <h1>Amimitl</h1>
                     </Link>
                 </Grid>
                 <Grid item xs={12} spacing={10} justify="flex-start" >
-                    <h1 className={classes.toMeChatBubble}>hola</h1>
+                    <h3 className={classes.toMeChatBubble}>hola</h3>
                 </Grid>
                 <Grid container direction="column" justify="center" alignItems="flex-end" item xs={12} spacing={10} >
-                    <h1 className={classes.fromMeChatBubble}>hola</h1>
+                    <h3 className={classes.fromMeChatBubble}>hola</h3>
                 </Grid>
                 <Grid item xs={12} className={classes.chatBox} >
                     <TextField

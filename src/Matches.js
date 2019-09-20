@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
     },
     containerStyle: {
         color: "black",
-        width: "50%",
+        width: "70%",
         height: "100%",
         display: "inline-flex",
         backgroundColor: "white",

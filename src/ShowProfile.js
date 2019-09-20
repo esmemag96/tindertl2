@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 const useStyles = makeStyles(theme => ({
     containerStyle: {
         color: "black",
-        width: "50%",
+        width: "70%",
         display: "inline-flex",
         backgroundColor: "white",
         border: "8px solid black",

@@ -34,7 +34,7 @@ export default function ShowPhoto() {
   return(
     <div className={classes.root}>
       <Grid container className={classes.containerStyle}>
-        <Grid item xs={12}>
+        <Grid item xs={12} m={6}>
           <h1 className={classes.name}>Yalitza</h1>
         </Grid>
         <Grid item xs={12}>

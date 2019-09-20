@@ -7,6 +7,8 @@ import Message from './Message'
 import { fontWeight } from '@material-ui/system';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Avatar from '@material-ui/core/Avatar';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+import Hidden from '@material-ui/core/Hidden';
 
 
 const useStyles = makeStyles(theme => ({
@@ -34,22 +36,25 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default function OneMatch(props) {
+    const matches = useMediaQuery('(min-width:600px)');
     const classes = useStyles();
     return (
         <div className={classes.root}>
             <Grid container className={classes.containerStyle}>
-                <Grid item xs={3}>
+                <Grid item md={3} xs={3}>
                     <Avatar src={props.photo} className={classes.photo} />
                     {/* <img className={classes.photo} src={props.photo} alt="Photo didn't load :("></img> */}
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item md={6} xs={9}>
                     <h1>{props.name}</h1>
                 </Grid>
-                <Grid item xs={3}>
-                    <Icon className={classes.iconsStyle}>
-                        message
-                    </Icon>
-                </Grid>
+                <Hidden smDown>
+                    <Grid item md={3}>
+                        <Icon className={classes.iconsStyle}>
+                            message
+                        </Icon>
+                    </Grid>
+                </Hidden>
             </Grid>
         </div>
     );
