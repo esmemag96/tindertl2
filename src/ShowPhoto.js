@@ -3,6 +3,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Fab from '@material-ui/core/Fab';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import PropTypes from 'prop-types';
+import { bindActionCreators } from 'redux';
+import ShowPhotoActions from './redux/ShowPhoto/actions';
+import { connect } from 'react-redux';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -29,31 +33,64 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function ShowPhoto() {
+
+
+let ShowPhoto = function ShowPhoto({current, personas, like, dislike, getAnother, fetchAll}) {
   const classes = useStyles();
   return(
     <div className={classes.root}>
       <Grid container className={classes.containerStyle}>
         <Grid item xs={12} m={6}>
-          <h1 className={classes.name}>Yalitza</h1>
+          <h1 className={classes.name}>{current.nombre}</h1>
         </Grid>
         <Grid item xs={12}>
-          <img className={classes.photo} src={'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAFwp4s.img?h=375&w=624&m=6&q=60&o=f&l=f&x=573&y=237'} alt="Photo didn't load :("></img>
+          <img className={classes.photo} src={current.photo} alt="Photo didn't load :("></img>
         </Grid>
         <Grid item xs={12}>
-          <h4 className={classes.bio}> Actriz de cine y maestra mexicana, reconocida por mi participación en la cinta Roma, no busco nada serio, no mando nudes</h4>
+          <h4 className={classes.bio}> {current.bio}</h4>
         </Grid>
         <Grid item xs={6}>
             <Fab aria-label="add" className={classes.fab}>
-                <i class="material-icons">thumb_down</i>
+                <i className="material-icons">thumb_down</i>
             </Fab>
         </Grid>
         <Grid item xs={6}>
             <Fab aria-label="add" className={classes.fab}>
-                <i class="material-icons">thumb_up</i>
+                <i className="material-icons" >thumb_up</i>
             </Fab>
         </Grid>
       </Grid>
     </div>
   );
 }
+
+function mapStateToProps(state){
+  return state.profile;
+}
+
+function mapDispatchToProps(dispatch){
+  return {
+    like: ShowPhotoActions.like,
+    dislike: ShowPhotoActions.dislike,
+    getAnother: ShowPhotoActions.getAnother,
+    fetchAll: ShowPhotoActions.fetchAll
+  }
+}
+
+ShowPhoto.propTypes = {
+    current: PropTypes.object.isRequired,
+    personas: PropTypes.arrayOf(PropTypes.shape({
+      nombre: PropTypes.string.isRequired,
+      photo: PropTypes.string.isRequired,
+      bio: PropTypes.string.isRequired
+    })),
+    like: PropTypes.func.isRequired,
+    dislike: PropTypes.func.isRequired,
+    getAnother: PropTypes.func.isRequired,
+    fetchAll: PropTypes.func.isRequired
+}
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(ShowPhoto);

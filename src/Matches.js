@@ -33,7 +33,7 @@ export default function Matches() {
                 <Grid item xs={12}>
                     <h1>Matches</h1>
                     <Link to="/message/001">
-                        <OneMatch photo="https://www.sintesis.mx/wp-content/uploads/2017/09/Indigena-1068x715.jpg" name="Amimitl" id="001" />
+                        <OneMatch photo="https://www.gob.mx/cms/uploads/image/file/317714/MUJERES_IND_GENAS__5_.jpg" name="Amimitl" id="001" />
                     </Link>
                     <OneMatch photo="https://www.gob.mx/cms/uploads/image/file/317714/MUJERES_IND_GENAS__5_.jpg" name="Xochitl" id="002" />
                     <OneMatch photo="https://i0.wp.com/mujeresconfiar.com/wp-content/uploads/2018/09/Hilda-Domico-Bailarin-1.jpg?fit=1024%2C702&ssl=1" name="Yanetzy" id="003" />

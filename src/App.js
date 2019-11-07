@@ -11,7 +11,6 @@ import Message from './Message'
 import MyProfile from './MyProfile'
 import ShowProfile from './ShowProfile'
 
-
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,

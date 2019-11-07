@@ -41,7 +41,7 @@ export default function StickyFooter() {
     <div className={classes.root}>
       <footer className={classes.footer}>
         <Container maxWidth="sm">
-          <Typography variant="body1">Made with <i class="material-icons">favorite</i></Typography>
+          <Typography variant="body1">Made with <i className="material-icons">favorite</i></Typography>
           <Copyright  />
         </Container>
       </footer>
