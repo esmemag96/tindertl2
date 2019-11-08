@@ -15,7 +15,7 @@ import { render, cleanup } from "@testing-library/react"
 import renderer from "react-test-renderer"
 
 afterEach(cleanup)
-/*
+
 it('Home renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<Home />, div);
@@ -51,7 +51,7 @@ it('App renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
-*/
+
 
 it("Functional test passed", () => {
   const tree = renderer.create(<Home />).toJSON();
