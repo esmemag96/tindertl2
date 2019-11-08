@@ -1,0 +1,578 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Functional test passed 1`] = `
+<div
+  className="makeStyles-root-197"
+>
+  <div
+    className="MuiGrid-root makeStyles-containerStyle-198 MuiGrid-container MuiGrid-justify-xs-center"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6"
+    >
+      <div
+        className="MuiAvatar-root makeStyles-photo-199"
+      >
+        <img
+          className="MuiAvatar-img"
+          src="https://fuckingtonpost.files.wordpress.com/2013/08/323-brasil-la-propuesta-del-congreso-serc3ada-un-desastre-absoluto-para-los-indc3adgenas.jpg"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <button
+        aria-label="add"
+        className="MuiButtonBase-root MuiFab-root makeStyles-fab1-201"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiFab-label"
+        >
+          <i
+            class="material-icons"
+          >
+            insert_photo
+          </i>
+        </span>
+      </button>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <h1>
+        Atzin, Jilotepec
+      </h1>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <h4>
+         Hablo mixteco, Otomi y Nahuatl, busco amigos para la peda y el amor
+      </h4>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
+    >
+      Editar
+      <button
+        aria-label="add"
+        className="MuiButtonBase-root MuiFab-root makeStyles-fab-200"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiFab-label"
+        >
+          <i
+            class="material-icons"
+          >
+            edit
+          </i>
+        </span>
+      </button>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <h4>
+        Quiero conocer gente de:
+      </h4>
+      <label
+        className="MuiFormControlLabel-root"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-229 MuiCheckbox-root MuiCheckbox-colorSecondary makeStyles-checkboxStyle-203 PrivateSwitchBase-checked-230 Mui-checked MuiIconButton-colorSecondary"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              checked={true}
+              className="PrivateSwitchBase-input-232"
+              data-indeterminate={false}
+              onChange={[Function]}
+              type="checkbox"
+              value="checkedB"
+            />
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+              />
+            </svg>
+          </span>
+        </span>
+        <span
+          className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+        >
+          Nahuas
+        </span>
+      </label>
+      <label
+        className="MuiFormControlLabel-root"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-229 MuiCheckbox-root MuiCheckbox-colorSecondary makeStyles-checkboxStyle-203 PrivateSwitchBase-checked-230 Mui-checked MuiIconButton-colorSecondary"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              checked={true}
+              className="PrivateSwitchBase-input-232"
+              data-indeterminate={false}
+              onChange={[Function]}
+              type="checkbox"
+              value="checkedB"
+            />
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+              />
+            </svg>
+          </span>
+        </span>
+        <span
+          className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+        >
+          Mayas
+        </span>
+      </label>
+      <label
+        className="MuiFormControlLabel-root"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-229 MuiCheckbox-root MuiCheckbox-colorSecondary makeStyles-checkboxStyle-203 PrivateSwitchBase-checked-230 Mui-checked MuiIconButton-colorSecondary"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              checked={true}
+              className="PrivateSwitchBase-input-232"
+              data-indeterminate={false}
+              onChange={[Function]}
+              type="checkbox"
+              value="checkedB"
+            />
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+              />
+            </svg>
+          </span>
+        </span>
+        <span
+          className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+        >
+          Zapotecas
+        </span>
+      </label>
+      <label
+        className="MuiFormControlLabel-root"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-229 MuiCheckbox-root MuiCheckbox-colorSecondary makeStyles-checkboxStyle-203 PrivateSwitchBase-checked-230 Mui-checked MuiIconButton-colorSecondary"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              checked={true}
+              className="PrivateSwitchBase-input-232"
+              data-indeterminate={false}
+              onChange={[Function]}
+              type="checkbox"
+              value="checkedB"
+            />
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+              />
+            </svg>
+          </span>
+        </span>
+        <span
+          className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+        >
+          Mixtecas
+        </span>
+      </label>
+    </div>
+    <div
+      className="Charts"
+    >
+      <div
+        className="rv-xy-plot "
+        style={
+          Object {
+            "height": "300px",
+            "width": "300px",
+          }
+        }
+      >
+        <svg
+          className="rv-xy-plot__inner"
+          height={300}
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+          onMouseDown={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          onMouseUp={[Function]}
+          onTouchCancel={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          onWheel={[Function]}
+          width={300}
+        >
+          <g
+            className="rv-xy-plot__series rv-xy-plot__series--bar "
+            transform="translate(40,10)"
+          >
+            <rect
+              height={222.2222222222222}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "fill": "#12939A",
+                  "opacity": 1,
+                  "stroke": "#12939A",
+                }
+              }
+              width={21.25}
+              x={1.875}
+              y={27.7777777777778}
+            />
+            <rect
+              height={138.88888888888889}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "fill": "#12939A",
+                  "opacity": 1,
+                  "stroke": "#12939A",
+                }
+              }
+              width={21.25}
+              x={26.875}
+              y={111.11111111111111}
+            />
+            <rect
+              height={111.11111111111109}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "fill": "#12939A",
+                  "opacity": 1,
+                  "stroke": "#12939A",
+                }
+              }
+              width={21.25}
+              x={51.875}
+              y={138.8888888888889}
+            />
+            <rect
+              height={250}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "fill": "#12939A",
+                  "opacity": 1,
+                  "stroke": "#12939A",
+                }
+              }
+              width={21.25}
+              x={76.875}
+              y={0}
+            />
+            <rect
+              height={27.77777777777777}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "fill": "#12939A",
+                  "opacity": 1,
+                  "stroke": "#12939A",
+                }
+              }
+              width={21.25}
+              x={101.875}
+              y={222.22222222222223}
+            />
+            <rect
+              height={194.44444444444446}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "fill": "#12939A",
+                  "opacity": 1,
+                  "stroke": "#12939A",
+                }
+              }
+              width={21.25}
+              x={126.875}
+              y={55.55555555555554}
+            />
+            <rect
+              height={166.66666666666666}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "fill": "#12939A",
+                  "opacity": 1,
+                  "stroke": "#12939A",
+                }
+              }
+              width={21.25}
+              x={151.875}
+              y={83.33333333333334}
+            />
+            <rect
+              height={83.33333333333331}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "fill": "#12939A",
+                  "opacity": 1,
+                  "stroke": "#12939A",
+                }
+              }
+              width={21.25}
+              x={176.875}
+              y={166.66666666666669}
+            />
+            <rect
+              height={55.55555555555554}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "fill": "#12939A",
+                  "opacity": 1,
+                  "stroke": "#12939A",
+                }
+              }
+              width={21.25}
+              x={201.875}
+              y={194.44444444444446}
+            />
+            <rect
+              height={0}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "fill": "#12939A",
+                  "opacity": 1,
+                  "stroke": "#12939A",
+                }
+              }
+              width={21.25}
+              x={226.875}
+              y={250}
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Functional test passed 2`] = `
+<div>
+  <div
+    className="MuiGrid-root makeStyles-containerStyle-291 MuiGrid-container"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <h1>
+         Amimitl, Tepoztlán
+      </h1>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <img
+        alt="Photo didn't load :("
+        className="makeStyles-photo-293"
+        src="https://www.sintesis.mx/wp-content/uploads/2017/09/Indigena-1068x715.jpg"
+      />
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <h4>
+         Soy una chica sencilla, me gusta pasear y comer 
+      </h4>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      Unmatch
+      <button
+        aria-label="add"
+        className="MuiButtonBase-root MuiFab-root makeStyles-fab-292"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiFab-label"
+        >
+          <i
+            class="material-icons"
+          >
+            cancel
+          </i>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -10,6 +10,7 @@ import Home from './Home'
 import Message from './Message'
 import MyProfile from './MyProfile'
 import ShowProfile from './ShowProfile'
+import ShowPhoto from './ShowPhoto'
 
 const useStyles = makeStyles(theme => ({
   root: {
