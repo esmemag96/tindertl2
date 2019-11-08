@@ -1,13 +1,8 @@
 import React from 'react';
-import logo from './images/tindertlFull.png';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Icon from '@material-ui/core/Icon';
-import Message from './Message'
-import { fontWeight } from '@material-ui/system';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Avatar from '@material-ui/core/Avatar';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Hidden from '@material-ui/core/Hidden';
 
 
@@ -36,7 +31,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default function OneMatch(props) {
-    const matches = useMediaQuery('(min-width:600px)');
+    //const matches = useMediaQuery('(min-width:600px)');
     const classes = useStyles();
     return (
         <div className={classes.root}>

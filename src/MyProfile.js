@@ -7,7 +7,6 @@ import Checkbox from '@material-ui/core/Checkbox';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Charts from './Charts'
 
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
     root: {

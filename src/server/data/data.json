@@ -1,25 +1,25 @@
 {
     "persons": [
       {
-        "id": 001,
+        "id": 1,
         "name": "Juana",
         "photo": "https://www.gob.mx/cms/uploads/image/file/317714/MUJERES_IND_GENAS__5_.jpg",
         "bio": "Soy chida"
       },
       {
-        "id": 002,
+        "id": 2,
         "name": "Lety",
         "photo": "https://www.gob.mx/cms/uploads/image/file/317714/MUJERES_IND_GENAS__5_.jpg",
         "bio": "Soy chida"
       },
       {
-        "id": 003,
+        "id": 3,
         "name": "Maria",
         "photo": "https://www.gob.mx/cms/uploads/image/file/317714/MUJERES_IND_GENAS__5_.jpg",
         "bio": "Soy chida"
       },
       {
-        "id": 004,
+        "id": 4,
         "name": "Lorena",
         "photo": "https://www.gob.mx/cms/uploads/image/file/317714/MUJERES_IND_GENAS__5_.jpg",
         "bio": "Soy chida"
