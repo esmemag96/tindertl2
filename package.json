@@ -43,5 +43,4 @@
     "@testing-library/react": "^9.3.2",
     "react-test-render": "^1.1.2"
   }
-
 }
