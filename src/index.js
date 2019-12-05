@@ -7,8 +7,12 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import reducer from './redux/reducers'
 
+import Amplify from 'aws-amplify'
+import config from './aws-exports'
 
+Amplify.configure(config)
 const store = createStore(reducer);
+
 
 ReactDOM.render(<Provider store={store}> <App/> </Provider>, document.getElementById('root'));
 

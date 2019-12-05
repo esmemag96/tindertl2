@@ -8,9 +8,9 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import MyProfile from './MyProfile'
 
 const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-  },
+  // root: {
+  //   flexGrow: 1,
+  // },
   paper: {
     padding: theme.spacing(2),
     textAlign: 'center',

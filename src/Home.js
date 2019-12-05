@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Fab from '@material-ui/core/Fab';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import ShowPhoto from './ShowPhoto'
+import Deck from "./Deck";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -18,6 +19,7 @@ export default function Home() {
   const classes = useStyles();
   return(
     <div className={classes.root}>
+      {/* <Deck /> */}
         <ShowPhoto />
     </div>
   );

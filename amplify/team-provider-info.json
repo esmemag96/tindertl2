@@ -1,0 +1,20 @@
+{
+    "tindertl": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-tindertl-tindertl-122146-authRole",
+            "UnauthRoleArn": "arn:aws:iam::900163684790:role/amplify-tindertl-tindertl-122146-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::900163684790:role/amplify-tindertl-tindertl-122146-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-tindertl-tindertl-122146-deployment",
+            "UnauthRoleName": "amplify-tindertl-tindertl-122146-unauthRole",
+            "StackName": "amplify-tindertl-tindertl-122146",
+            "StackId": "arn:aws:cloudformation:eu-central-1:900163684790:stack/amplify-tindertl-tindertl-122146/1ce484e0-178c-11ea-8ec2-0a24e2904074",
+            "AmplifyAppId": "d1vi7k4azh0ir6"
+        },
+        "categories": {
+            "auth": {
+                "tindertle9e2eed6": {}
+            }
+        }
+    }
+}
