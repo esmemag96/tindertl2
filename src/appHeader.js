@@ -30,7 +30,7 @@ const useStyles = makeStyles(theme => ({
 export default function AppHeader() {
   const classes = useStyles();
   return (
-    <div className={classes.root}>
+    <div>
       <Grid container alignItems="center">
         <Grid item xs={4}>
           <Link to="/myprofile">

@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: "#aa3a2a",
+  background-color:white;
 }
 
 .App-logo {
@@ -31,4 +31,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.MuiCardContent-root {
+  height: 90%;
+}
+
+.MuiCardContent-root>div {
+  min-height: 500px !important;
+  height: 100% !important;
+}
+
+.MuiCardContent-root>div>div {
+  max-height: 100% !important;
+}
+
+.MuiCardContent-root>div> div > img {
+  margin-top: 2%;
+  margin-left: 30%;
+  max-width: 40% !important;
 }
